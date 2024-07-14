@@ -1,4 +1,4 @@
-#This is a Simple Project for Remote-Shell-Access
+#This is a Simple Remote-Shell-Access Project 
 
 - First Run the Techboy_server.py on your host computer(computer-1) and give your host ip addr and port no
 
