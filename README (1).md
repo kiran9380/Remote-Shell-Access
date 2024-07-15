@@ -6,7 +6,7 @@ This is a Simple Remote-Shell-Access Project. with this we can interact with ano
 
 
 
-## Run Locally
+## Usage
 
 - First Run the Techboy_server.py on your host computer(computer-1) and give your host ip addr and port no
 
