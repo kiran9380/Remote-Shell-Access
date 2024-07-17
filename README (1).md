@@ -1,7 +1,7 @@
 
 # Remote-Shell-Access
 
-This is a Simple Remote-Shell-Access Project. with this we can interact with another computer shell
+This is a Simple Remote-Shell-Access Project. I created this using Python Socket. With this, we can interact with another computer shell
 
 
 
@@ -12,7 +12,7 @@ This is a Simple Remote-Shell-Access Project. with this we can interact with ano
 
 ```bash
     C:\project>python Techboy_server.py
-  	Enter the host (e.g., 127.0.0.1): 192.168.231.68
+  	Enter the host (e.g., 127.0.0.1): 192.168.231.58
   	Enter the port (e.g., 8888): 4444
   	listening
 ```
@@ -22,6 +22,6 @@ This is a Simple Remote-Shell-Access Project. with this we can interact with ano
 ```bash
      D:\project>python kiran_client.py
  	 connecting....
- 	 Enter the server host (e.g., 127.0.0.1): 192.168.231.68
+ 	 Enter the server host (e.g., 127.0.0.1): 192.168.231.58
  	 Enter the server port (e.g., 8888): 4444
 
