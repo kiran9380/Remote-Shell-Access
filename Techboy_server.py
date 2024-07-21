@@ -31,7 +31,7 @@ while True:
     if cmd == "exit":
         break
     # Receive output from client and print
-    output = kiran.recv(1024).decode()
+    output = kiran.recv(1024*1024*1024).decode()
     print(output)
 
 # Close the connection
