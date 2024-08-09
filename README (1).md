@@ -3,6 +3,8 @@
 
 This is a Simple Remote-Shell-Access Project. I created this using Python Socket. With this, we can interact with another computer shell
 
+google drive client file link for download : 
+https://drive.usercontent.google.com/download?id=14LwHHt7Squjy6cMqTNkAH0Yt_Bpdobhb&export=download&authuser=0
 
 
 
